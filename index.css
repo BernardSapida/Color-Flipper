@@ -1,0 +1,11 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+body .container {
+  height: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}/*# sourceMappingURL=index.css.map */
