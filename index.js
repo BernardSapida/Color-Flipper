@@ -6,9 +6,7 @@ let button = document.getElementById("btn-color");
 button.addEventListener("click", function(e) {
     let newColor = "#";
 
-    for(let i = 0; i < 6; i++) {
-        newColor += hex[Math.floor(Math.random() * (hex.length - 0 - 1) + 0)];
-    }
+    for(let i = 0; i < 6; i++) newColor += hex[Math.floor(Math.random() * (hex.length - 0 - 1) + 0)];
     
     span.innerText = newColor;
     body.style.backgroundColor = newColor;
